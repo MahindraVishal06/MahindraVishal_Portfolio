@@ -8,21 +8,21 @@ export const CertificationSection: React.FC = () => {
       id: 'cert-1',
       title: 'Google Play x Unity Program Mentorship',
       subtitle: 'Structured developer mentorship & workshops',
-      url: "/public/Google X Unity/1.jpeg",
+      url: "/Google X Unity/1.jpeg",
       alt: 'Google Play x Unity Program developer workshop and mentorship session'
     },
     {
       id: 'cert-2',
       title: 'Unity Certified Associate Certification',
       subtitle: 'Official Unity Technologies credential',
-      url: "/public/Google X Unity/5.jpeg",
+      url: "/Google X Unity/5.jpeg",
       alt: 'Unity Certified Associate Game Developer official certification credential'
     },
     {
       id: 'cert-3',
       title: 'Gameplay Programming & Architecture',
       subtitle: 'Hands-on Unity C# engine workflows',
-      url: "/public/Google X Unity/3.jpeg",
+      url: "/Google X Unity/3.jpeg",
       alt: 'Unity C# gameplay programming and engine architecture review'
     }
   ];
