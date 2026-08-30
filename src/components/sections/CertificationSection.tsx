@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiAward, FiCheckCircle } from 'react-icons/fi';
+import { FiAward } from 'react-icons/fi';
 
 export const CertificationSection: React.FC = () => {
   const certificationPhotos = [
