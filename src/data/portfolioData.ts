@@ -82,26 +82,24 @@ export const PROJECTS_DATA: Project[] = [
     ],
     contributions: [
       {
-        subtopic: "Multiplayer Networking & State Synchronization",
+        subtopic: "Finite State Machine Architecture",
         bulletPoints: [
-          "Architected server-authoritative player locomotion with client-side prediction, entity interpolation, and custom byte serialization in Unity Netcode for GameObjects.",
-          "Implemented custom byte packet serialization, cutting RPC network bandwidth consumption by over 40%.",
-          "Synchronized dynamic physical door locks, key item inventory state, and torchlight beams across high-latency client connections."
+          "Designed the player controller using a Finite State Machine (FSM) for clean and modular state management.",
+          "Implemented separate states for Idle, Walk, Run, Crouch, Jump, and Fall.",
+          "Structured state transitions based on player input and movement conditions."
         ]
       },
       {
-        subtopic: "Gameplay Programming & AI Systems",
+        subtopic: "In-Place Turning",
         bulletPoints: [
-          "Engineered 3D third-person character locomotion, stamina management, sprinting, crouching, and vaulting mechanics.",
-          "Programmed tactical monster AI behavior using NavMesh pathfinding, vision cone raycasts, and sound-based perception heatmaps.",
-          "Built ScriptableObject-driven 4-slot key item inventory with networked drop/pickup state management."
+          "Implemented in-place character turning to smoothly rotate the player toward the movement direction."
         ]
       },
       {
-        subtopic: "Performance Optimization & Team Collaboration",
+        subtopic: "Raycast-Based Stair Climbing",
         bulletPoints: [
-          "Eliminated runtime GC allocations during intense combat using custom C# object pooling for particle and sound emitters.",
-          "Led weekly code reviews, established Git LFS branching guidelines, and integrated 3D character assets from technical artists."
+          "Developed a raycast-based stair detection and climbing system.",
+          "Used multiple raycasts to detect step height and determine whether the player can climb an obstacle."
         ]
       }
     ],
