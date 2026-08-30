@@ -1,11 +1,9 @@
 import React from 'react';
-import { FiArrowUp, FiHeart, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiHeart, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import { HERO_DATA } from '../../data/portfolioData';
 
 export const Footer: React.FC = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  
 
   return (
     <footer className="bg-neutral-950 text-white border-t border-neutral-800 py-12 relative z-10">
