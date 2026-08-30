@@ -11,7 +11,7 @@ export const HERO_DATA = {
   resumeUrl: "/resume/Mahindra_Vishal_Resume.pdf",
   profileImage: "/public/Profile pic 2.jpeg",
 
-  videoUrl: "/public/Videos/Third-PersonMovementSystem - EnemyAI - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.10f1)_ _DX12_ 2026-06-28 12-57-23.mp4",
+  videoUrl: "/public/Third person player controller/Gameplay.mp4",
   targetStudios: ["Ubisoft", "Riot Games", "EA", "Naughty Dog", "Insomniac Games", "CD Projekt Red", "Rockstar Games"],
   stats: [
     { label: "Years of Experience", value: "3+" },
