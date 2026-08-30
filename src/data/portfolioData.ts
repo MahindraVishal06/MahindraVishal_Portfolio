@@ -136,18 +136,31 @@ export const PROJECTS_DATA: Project[] = [
     ],
     contributions: [
       {
-        subtopic: "Physics & Ball Trajectory Math",
+        subtopic: "Gameplay Programming",
         bulletPoints: [
-          "Formulated deterministic curve ball trajectories and force impulse math for realistic throwing physics.",
-          "Synchronized stone stack rigidbody collapse and physical rebuilding mechanics across online players."
+          "Developed an endless platform spawning system to continuously generate the level as players progress.",
+          "Implemented input handling for both players with their distinct control schemes.",
+          "Configured controls for the thief driving the car and the police player controlling the helicopter."
         ]
       },
       {
-        subtopic: "Multiplayer Architecture & UI Development",
+        subtopic: "Level Design",
         bulletPoints: [
           "Implemented Photon PUN 2 room matchmaking, player tagging synchronization, and state snapshot interpolation.",
-          "Created real-time scoreboards, match timers, round state banners, and team victory overlays using Unity UI Toolkit.",
+          "Designed the gameplay environment for the 3D endless runner experience.",
           "Designed touch swipe gesture controls and dynamic camera lock-on for intuitive mobile gameplay."
+        ]
+      },
+      {
+        subtopic: "Audio Integration",
+        bulletPoints: [
+          "Integrated sound effects and audio feedback throughout the game."
+        ]
+      },
+      {
+        subtopic: "Game Jam Development",
+        bulletPoints: [
+          "Contributed to the rapid development and iteration of the game within the constraints of the Indie Connect Game Jam."
         ]
       }
     ],
@@ -186,18 +199,34 @@ export const PROJECTS_DATA: Project[] = [
     ],
     contributions: [
       {
-        subtopic: "Gameplay Mechanics & Touch Controls",
+        subtopic: "Gameplay Mechanics & Controls",
         bulletPoints: [
-          "Programmed rock-solid 60 FPS touch deflector shield mechanics with sub-pixel collision response.",
-          "Designed dynamic altitude difficulty scaling and obstacle pattern generation logic."
+          "Developed an infinite platform generation system using Unity's Object Pooling technique.",
+          "Implemented tilt-based controls for mobile devices.",
+          "Implemented multiple power-ups to add variety to the gameplay.",
+          "Developed a dynamic day-and-night cycle to add visual variation to the endless gameplay."
         ]
       },
       {
-        subtopic: "Mobile Performance & Store Deployment",
+        subtopic: "Unity Ads Integration",
         bulletPoints: [
-          "Optimized draw calls using URP batching, simplified mesh colliders, and zero-allocation object pools.",
-          "Built custom Unity Editor procedural obstacle pattern spawner tool for rapid level iteration.",
-          "Handled full Play Store release lifecycle: Android AAB signing, 64-bit compliance, and Play Services leaderboard integration."
+          "Integrated Unity Ads into the mobile game.",
+          "Configured advertisements to work with the game's progression and reward systems."
+        ]
+      }
+      ,
+      {
+        subtopic: "Character Skin System",
+        bulletPoints: [
+          "Developed a character skin selection system allowing players to customize their character.",
+          "Managed unlocked/locked skin states and player selections."
+        ]
+      },
+      {
+        subtopic: "2D Art & Visual Assets",
+        bulletPoints: [
+          "Created and integrated 2D art assets for the game.",
+          "Worked on visual elements to maintain a consistent and engaging art style."
         ]
       }
     ],
