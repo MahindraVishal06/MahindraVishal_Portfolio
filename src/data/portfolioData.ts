@@ -103,8 +103,7 @@ export const PROJECTS_DATA: Project[] = [
         ]
       }
     ],
-    githubUrl: "https://github.com/example/multiplayer-horror",
-    demoUrl: "https://example.com/demo/horror",
+    githubUrl: "https://github.com/MahindraVishal06/MahindraVishal_Unity_Systems/tree/main/Assets/ThirdPersonMovement",
     featured: true
   },
   {
@@ -164,8 +163,6 @@ export const PROJECTS_DATA: Project[] = [
         ]
       }
     ],
-    githubUrl: "https://github.com/example/seven-stones",
-    demoUrl: "https://example.com/demo/seven-stones",
     featured: true
   },
   {
@@ -230,8 +227,6 @@ export const PROJECTS_DATA: Project[] = [
         ]
       }
     ],
-    githubUrl: "https://github.com/example/save-the-balloon",
-    demoUrl: "https://play.google.com",
     featured: false
   },
   {
