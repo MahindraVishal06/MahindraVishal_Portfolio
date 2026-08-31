@@ -11,7 +11,7 @@ export const HERO_DATA = {
   resumeUrl: "/resume/Mahindra_Vishal_Resume.pdf",
   profileImage: "/Profile pic 2.jpeg",
 
-  videoUrl: "/Third person player controller/Gameplay.mp4",
+  videoUrl: "/Videos/Hero Video.mp4",
   targetStudios: ["Ubisoft", "Riot Games", "EA", "Naughty Dog", "Insomniac Games", "CD Projekt Red", "Rockstar Games"],
   stats: [
     { label: "Years of Experience", value: "3+" },
