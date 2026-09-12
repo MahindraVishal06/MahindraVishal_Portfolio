@@ -292,6 +292,69 @@ export const PROJECTS_DATA: Project[] = [
     ],
     demoUrl: "https://play.google.com/store/apps/details?id=com.technopxl.kidoralearn.learningapp",
     featured: true
+  },
+  {
+    id: "FearmanOnline",
+    slug: "FearmanOnline",
+    title: "Fearman Online",
+    tagline: "An online multiplayer horror game where five players are trapped in a deadly environment hunted by an unstoppable AI monster.",
+    category: "Professional",
+    organization: "Resengal Studio",
+    organizationUrl: "https://www.resengalstudio.live/",
+    teamSize: 8,
+    description: "An online multiplayer horror game where five players are trapped in a deadly environment hunted by an unstoppable AI monster.",
+    previewVideo: "/Fearman/Fearman.mp4",
+    heroVideo: "/Fearman/Fearman.mp4",
+    videoOrientation: "landscape",
+    youtubeUrl: "https://youtu.be/pXGP3yk-3yE",
+    image: "/Fearman/icon.webp",
+    screenshots: [
+      "/Fearman/Fearman - 1.webp",
+      "/Fearman/Fearman - 2.webp",
+      "/Fearman/Fearman - 3.webp",
+      "/Fearman/Fearman - 4.webp",
+      "/Fearman/Fearman - 5.webp",
+    ],
+    tags: ["Unity", "C#", "Google TTS API", "Gemini AI", "REST API"],
+    role: "Lead Unity API & Systems Developer",
+    duration: "48 Hours",
+    technologies: ["Unity", "C#", "Google Text-to-Speech API", "Gemini REST API", "UniTask"],
+    features: ["AI Voice Generation", "Dynamic Quiz Engine", "Async UniTask Emitters", "Animated Avatar Tutor", "Child Friendly UI"],
+    aboutParagraphs: [
+      "KidoraLearn is the learning app built for kids ages 3–11 and designed for Pre K to Grade 5, it transforms screen time into interactive learning across Mathematics, English, reading, and more.",
+      "It is purpose based multisensory learning app that connects school syllabus with interactive activities at home. It builds strong foundations and helps kids learn concepts with purpose with real-life examples. Parents and schools can track performance and ensure steady academic progress.", 
+      "The platform is aligned with curriculum standards and built for both classroom and at-home use, serving as a unified smart learning solution. With a focus on interactive multisensory learning, KidoraLearn fosters curiosity, comprehension and creativity in young learners.",
+    ],
+    contributions: [
+      {
+        subtopic: "Gameplay Programming",
+        bulletPoints: [
+          "Developed 15–20 interactive learning activities across different grade levels.",
+          "Programmed the core logic and interactions for multiple educational activities."
+        ]
+      },
+      {
+        subtopic: "Animation Implementation",
+        bulletPoints: [
+          "Integrated and implemented animations across multiple learning activities.",
+          "Coordinated animations with gameplay events and user interactions."
+        ]
+      },
+      {
+        subtopic: "Sound & Audio Integration",
+        bulletPoints: [
+          "Integrated sound effects and audio feedback into activities.",
+        ]
+      },
+      {
+        subtopic: "Bug Fixing & Debugging",
+        bulletPoints: [
+          "Identified and fixed 100+ bugs across the application.",
+        ]
+      }
+    ],
+    demoUrl: "https://play.google.com/store/apps/details?id=com.technopxl.kidoralearn.learningapp",
+    featured: true
   }
 ];
 
