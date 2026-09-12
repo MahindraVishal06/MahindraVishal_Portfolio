@@ -163,6 +163,7 @@ export const PROJECTS_DATA: Project[] = [
         ]
       }
     ],
+    githubUrl: "https://github.com/DURKESH-KUMAR/IndieConnectGameJam",
     featured: true
   },
   {
