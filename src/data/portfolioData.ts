@@ -107,130 +107,6 @@ export const PROJECTS_DATA: Project[] = [
     featured: true
   },
   {
-    id: "crash-and-chaos",
-    slug: "crash-and-chaos",
-    title: "Crash and Chaos",
-    tagline: "Fast phased fun Co-op endless runner",
-    category: "GameJam",
-    teamSize: 3,
-    description: "Crash & Chaos is a 3D cooperative endless runner created during the Indie Connect Game Jam. One player takes the role of a thief driving a car through an endless road, while the second player controls a police helicopter and drops bombs to stop the getaway.",
-    previewVideo: "/Crash and chaos/Gameplay.mp4",
-    heroVideo: "/Crash and chaos/Gameplay.mp4",
-    videoOrientation: "landscape",
-    image: "/Crash and chaos/2.jpeg",
-    screenshots: [
-      "/Crash and chaos/1.jpeg",
-      "/Crash and chaos/2.jpeg",
-      "/Crash and chaos/3.jpeg"
-    ],
-    tags: ["Unity", "C#", "Physics", "Multiplayer", "Mobile"],
-    role: "Lead Systems & Physics Programmer",
-    duration: "3 Months",
-    technologies: ["Unity", "C#", "Photon PUN 2", "Unity Physics", "Blender"],
-    features: ["Ball Trajectory Physics", "Stone Stack Rigidbodies", "Room Lobby Matchmaking", "Mobile Touch Gestures", "Snapshot Interpolation"],
-    aboutParagraphs: [
-      "Crash & Chaos is a 3D cooperative endless runner developed for the Indie Connect Game Jam. The game features two unique player roles: a thief who navigates an endless road in a car and a police player who rides a helicopter and strategically drops bombs to stop the escape.",
-      "The game was developed as part of the Indie Connect Game Jam, where the focus was on creating an engaging multiplayer experience within a limited development timeframe.",
-      "The contrasting roles create a chaotic gameplay loop where the driver must constantly react to the helicopter's attacks, while the police player has to predict the driver's movement and strategically place bombs."
-    ],
-    contributions: [
-      {
-        subtopic: "Gameplay Programming",
-        bulletPoints: [
-          "Developed an endless platform spawning system to continuously generate the level as players progress.",
-          "Implemented input handling for both players with their distinct control schemes.",
-          "Configured controls for the thief driving the car and the police player controlling the helicopter."
-        ]
-      },
-      {
-        subtopic: "Level Design",
-        bulletPoints: [
-          "Implemented Photon PUN 2 room matchmaking, player tagging synchronization, and state snapshot interpolation.",
-          "Designed the gameplay environment for the 3D endless runner experience.",
-          "Designed touch swipe gesture controls and dynamic camera lock-on for intuitive mobile gameplay."
-        ]
-      },
-      {
-        subtopic: "Audio Integration",
-        bulletPoints: [
-          "Integrated sound effects and audio feedback throughout the game."
-        ]
-      },
-      {
-        subtopic: "Game Jam Development",
-        bulletPoints: [
-          "Contributed to the rapid development and iteration of the game within the constraints of the Indie Connect Game Jam."
-        ]
-      }
-    ],
-    githubUrl: "https://github.com/DURKESH-KUMAR/IndieConnectGameJam",
-    featured: true
-  },
-  {
-    id: "save-the-balloon",
-    slug: "save-the-balloon",
-    title: "Save the Balloon",
-    tagline: "Fast-Paced Endless Arcade Runner Published on Google Play Store",
-    category: "Personal",
-    teamSize: 1,
-    description: "Published mobile endless runner where players shield a rising balloon from falling physics obstacles by tilting the phone.",
-    previewVideo: "/Save The Balloon/Gameplay.mp4",
-    heroVideo: "/Save The Balloon/Gameplay.mp4",
-    videoOrientation: "portrait",
-    image: "/Save The Balloon/1.jpeg",
-    screenshots: [
-      "/Save The Balloon/1.jpeg",
-      "/Save The Balloon/2.jpeg",
-      "/Save The Balloon/3.jpeg",
-      "/Save The Balloon/4.jpeg",
-      "/Save The Balloon/5.jpeg"
-    ],
-    tags: ["Unity", "C#", "Mobile", "Object Pooling", "Google Play"],
-    role: "Solo Developer & Programmer",
-    duration: "2 Months",
-    technologies: ["Unity URP", "C#", "Object Pooling Engine", "Google Play Services"],
-    features: ["Object Pooling", "Touch Swipe Controls", "Leaderboard Sync", "URP Shader Graph", "60 FPS Mobile Optimization"],
-    aboutParagraphs: [
-      "Save the Balloon is an intuitive, highly addictive mobile arcade game built and published on the Google Play Store.",
-      "Players control a protective shield with swift finger gestures to deflect falling obstacles and keep a rising balloon safe as altitude increases.",
-      "The game was engineered with object pooling and zero runtime GC allocations, allowing it to maintain a rock-solid 60 FPS on low-end Android mobile devices."
-    ],
-    contributions: [
-      {
-        subtopic: "Gameplay Mechanics & Controls",
-        bulletPoints: [
-          "Developed an infinite platform generation system using Unity's Object Pooling technique.",
-          "Implemented tilt-based controls for mobile devices.",
-          "Implemented multiple power-ups to add variety to the gameplay.",
-          "Developed a dynamic day-and-night cycle to add visual variation to the endless gameplay."
-        ]
-      },
-      {
-        subtopic: "Unity Ads Integration",
-        bulletPoints: [
-          "Integrated Unity Ads into the mobile game.",
-          "Configured advertisements to work with the game's progression and reward systems."
-        ]
-      }
-      ,
-      {
-        subtopic: "Character Skin System",
-        bulletPoints: [
-          "Developed a character skin selection system allowing players to customize their character.",
-          "Managed unlocked/locked skin states and player selections."
-        ]
-      },
-      {
-        subtopic: "2D Art & Visual Assets",
-        bulletPoints: [
-          "Created and integrated 2D art assets for the game.",
-          "Worked on visual elements to maintain a consistent and engaging art style."
-        ]
-      }
-    ],
-    featured: false
-  },
-  {
     id: "Kidoralearn",
     slug: "Kidoralearn",
     title: "Kidoralearn",
@@ -354,6 +230,131 @@ export const PROJECTS_DATA: Project[] = [
       }
     ],
     demoUrl: "https://play.google.com/store/apps/details?id=com.technopxl.kidoralearn.learningapp",
+    featured: true
+  },
+  {
+    id: "save-the-balloon",
+    slug: "save-the-balloon",
+    title: "Save the Balloon",
+    tagline: "Fast-Paced Endless Arcade Runner Published on Google Play Store",
+    category: "Personal",
+    teamSize: 1,
+    description: "Published mobile endless runner where players shield a rising balloon from falling physics obstacles by tilting the phone.",
+    previewVideo: "/Save The Balloon/Gameplay.mp4",
+    heroVideo: "/Save The Balloon/Gameplay.mp4",
+    videoOrientation: "portrait",
+    image: "/Save The Balloon/1.jpeg",
+    screenshots: [
+      "/Save The Balloon/1.jpeg",
+      "/Save The Balloon/2.jpeg",
+      "/Save The Balloon/3.jpeg",
+      "/Save The Balloon/4.jpeg",
+      "/Save The Balloon/5.jpeg"
+    ],
+    tags: ["Unity", "C#", "Mobile", "Object Pooling", "Google Play"],
+    role: "Solo Developer & Programmer",
+    duration: "2 Months",
+    technologies: ["Unity URP", "C#", "Object Pooling Engine", "Google Play Services"],
+    features: ["Object Pooling", "Touch Swipe Controls", "Leaderboard Sync", "URP Shader Graph", "60 FPS Mobile Optimization"],
+    aboutParagraphs: [
+      "Save the Balloon is an intuitive, highly addictive mobile arcade game built and published on the Google Play Store.",
+      "Players control a protective shield with swift finger gestures to deflect falling obstacles and keep a rising balloon safe as altitude increases.",
+      "The game was engineered with object pooling and zero runtime GC allocations, allowing it to maintain a rock-solid 60 FPS on low-end Android mobile devices."
+    ],
+    contributions: [
+      {
+        subtopic: "Gameplay Mechanics & Controls",
+        bulletPoints: [
+          "Developed an infinite platform generation system using Unity's Object Pooling technique.",
+          "Implemented tilt-based controls for mobile devices.",
+          "Implemented multiple power-ups to add variety to the gameplay.",
+          "Developed a dynamic day-and-night cycle to add visual variation to the endless gameplay."
+        ]
+      },
+      {
+        subtopic: "Unity Ads Integration",
+        bulletPoints: [
+          "Integrated Unity Ads into the mobile game.",
+          "Configured advertisements to work with the game's progression and reward systems."
+        ]
+      }
+      ,
+      {
+        subtopic: "Character Skin System",
+        bulletPoints: [
+          "Developed a character skin selection system allowing players to customize their character.",
+          "Managed unlocked/locked skin states and player selections."
+        ]
+      },
+      {
+        subtopic: "2D Art & Visual Assets",
+        bulletPoints: [
+          "Created and integrated 2D art assets for the game.",
+          "Worked on visual elements to maintain a consistent and engaging art style."
+        ]
+      }
+    ],
+    featured: false
+  },
+  
+  {
+    id: "crash-and-chaos",
+    slug: "crash-and-chaos",
+    title: "Crash and Chaos",
+    tagline: "Fast phased fun Co-op endless runner",
+    category: "GameJam",
+    teamSize: 3,
+    description: "Crash & Chaos is a 3D cooperative endless runner created during the Indie Connect Game Jam. One player takes the role of a thief driving a car through an endless road, while the second player controls a police helicopter and drops bombs to stop the getaway.",
+    previewVideo: "/Crash and chaos/Gameplay.mp4",
+    heroVideo: "/Crash and chaos/Gameplay.mp4",
+    videoOrientation: "landscape",
+    image: "/Crash and chaos/2.jpeg",
+    screenshots: [
+      "/Crash and chaos/1.jpeg",
+      "/Crash and chaos/2.jpeg",
+      "/Crash and chaos/3.jpeg"
+    ],
+    tags: ["Unity", "C#", "Physics", "Multiplayer", "Mobile"],
+    role: "Lead Systems & Physics Programmer",
+    duration: "3 Months",
+    technologies: ["Unity", "C#", "Photon PUN 2", "Unity Physics", "Blender"],
+    features: ["Ball Trajectory Physics", "Stone Stack Rigidbodies", "Room Lobby Matchmaking", "Mobile Touch Gestures", "Snapshot Interpolation"],
+    aboutParagraphs: [
+      "Crash & Chaos is a 3D cooperative endless runner developed for the Indie Connect Game Jam. The game features two unique player roles: a thief who navigates an endless road in a car and a police player who rides a helicopter and strategically drops bombs to stop the escape.",
+      "The game was developed as part of the Indie Connect Game Jam, where the focus was on creating an engaging multiplayer experience within a limited development timeframe.",
+      "The contrasting roles create a chaotic gameplay loop where the driver must constantly react to the helicopter's attacks, while the police player has to predict the driver's movement and strategically place bombs."
+    ],
+    contributions: [
+      {
+        subtopic: "Gameplay Programming",
+        bulletPoints: [
+          "Developed an endless platform spawning system to continuously generate the level as players progress.",
+          "Implemented input handling for both players with their distinct control schemes.",
+          "Configured controls for the thief driving the car and the police player controlling the helicopter."
+        ]
+      },
+      {
+        subtopic: "Level Design",
+        bulletPoints: [
+          "Implemented Photon PUN 2 room matchmaking, player tagging synchronization, and state snapshot interpolation.",
+          "Designed the gameplay environment for the 3D endless runner experience.",
+          "Designed touch swipe gesture controls and dynamic camera lock-on for intuitive mobile gameplay."
+        ]
+      },
+      {
+        subtopic: "Audio Integration",
+        bulletPoints: [
+          "Integrated sound effects and audio feedback throughout the game."
+        ]
+      },
+      {
+        subtopic: "Game Jam Development",
+        bulletPoints: [
+          "Contributed to the rapid development and iteration of the game within the constraints of the Indie Connect Game Jam."
+        ]
+      }
+    ],
+    githubUrl: "https://github.com/DURKESH-KUMAR/IndieConnectGameJam",
     featured: true
   }
 ];
