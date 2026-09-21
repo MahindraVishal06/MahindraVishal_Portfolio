@@ -197,39 +197,45 @@ export const PROJECTS_DATA: Project[] = [
     technologies: ["Unity", "C#", "Google Text-to-Speech API", "Gemini REST API", "UniTask"],
     features: ["AI Voice Generation", "Dynamic Quiz Engine", "Async UniTask Emitters", "Animated Avatar Tutor", "Child Friendly UI"],
     aboutParagraphs: [
-      "KidoraLearn is the learning app built for kids ages 3–11 and designed for Pre K to Grade 5, it transforms screen time into interactive learning across Mathematics, English, reading, and more.",
-      "It is purpose based multisensory learning app that connects school syllabus with interactive activities at home. It builds strong foundations and helps kids learn concepts with purpose with real-life examples. Parents and schools can track performance and ensure steady academic progress.", 
-      "The platform is aligned with curriculum standards and built for both classroom and at-home use, serving as a unified smart learning solution. With a focus on interactive multisensory learning, KidoraLearn fosters curiosity, comprehension and creativity in young learners.",
+      "Fearman Online is a multiplayer horror game where five players are trapped inside a haunted house with only three keys available to unlock their escape.",
+      "Players must work together, explore the environment, find the keys, and survive encounters with the terrifying Fearman.", 
+      "Once the keys are collected, they must navigate the final maze and escape before being caught. The game features multiple maps, each offering a unique environment and challenges.",
     ],
     contributions: [
       {
         subtopic: "Gameplay Programming",
         bulletPoints: [
-          "Developed 15–20 interactive learning activities across different grade levels.",
-          "Programmed the core logic and interactions for multiple educational activities."
+          "Developed the interaction system for picking up objects and hiding in designated hiding spots.",
+          "Implemented a trajectory-based object throwing system for realistic projectile movement."
         ]
       },
       {
-        subtopic: "Animation Implementation",
+        subtopic: "Animation",
         bulletPoints: [
-          "Integrated and implemented animations across multiple learning activities.",
-          "Coordinated animations with gameplay events and user interactions."
+          "Implemented Inverse Kinematics (IK) for the player's right hand to dynamically align and hold picked-up objects."
         ]
       },
       {
-        subtopic: "Sound & Audio Integration",
-        bulletPoints: [
-          "Integrated sound effects and audio feedback into activities.",
+        subtopic: "Networking",
+        bulletPoints:[
+          "Implemented ownership request and transfer logic for pickup items to ensure synchronized object interactions across multiplayer clients."
         ]
       },
       {
-        subtopic: "Bug Fixing & Debugging",
+        subtopic: "Audio Integration",
         bulletPoints: [
-          "Identified and fixed 100+ bugs across the application.",
+          "Integrated dynamic footstep audio based on the player's movement speed."
+        ]
+      },
+      {
+        subtopic: "UI",
+        bulletPoints: [
+          "Developed a floating joystick for player movement.",
+          "Implemented UI elements related to player controls and interactions."
         ]
       }
     ],
-    demoUrl: "https://play.google.com/store/apps/details?id=com.technopxl.kidoralearn.learningapp",
+    demoUrl: "https://play.google.com/store/apps/details?id=com.ResengalStudio.FearManOnline&pcampaignid=web_share",
     featured: true
   },
   {
